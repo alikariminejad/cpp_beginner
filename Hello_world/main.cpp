@@ -1,9 +1,12 @@
 #include <iostream>
 
 int main() {
-    int file_size = 10;
-    int counter = 10;
-    double sales = 9.9;
-    std::cout << sales;
+    int a = 1;
+    int b = 2;
+    int temp = 0;
+    temp = a;
+    a = b;
+    b = temp;
+    std::cout << a;
     return 0;
 }
