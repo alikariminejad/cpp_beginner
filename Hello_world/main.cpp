@@ -19,11 +19,37 @@
 // }
 
 // Naming Conventions
+// int main()
+// {
+//     int file_size;  // Snake Case
+//     int FileSize;   // Pascal Case
+//     int fileSize;   // Camel Case
+//     int iFileSize;  // Hungarian Notation
+//     return 0;
+// }
+
+// Mathematical Expressions
+// int main()
+// {
+//     int x = 31;
+//     int y = 5;
+//     int z = x % y;   // + - * / % ++ 
+//     std::cout << z;
+//     return 0;
+// }
+
+// int main()
+// {
+//     int x = 31;
+//     int y = x++; // x =32, y=31
+//     std::cout << x;
+//     return 0;
+// }
+
 int main()
 {
-    int file_size;  // Snake Case
-    int FileSize;   // Pascal Case
-    int fileSize;   // Camel Case
-    int iFileSize;  // Hungarian Notation
+    int x = 31;
+    int y = ++x; // x =32, y=32
+    std::cout << y;
     return 0;
 }
