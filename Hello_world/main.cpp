@@ -46,10 +46,28 @@
 //     return 0;
 // }
 
-int main()
-{
-    int x = 31;
-    int y = ++x; // x =32, y=32
-    std::cout << y;
+// int main()
+// {
+//     int x = 31;
+//     int y = ++x; // x =32, y=32
+//     std::cout << y;
+//     return 0;
+// }
+
+// Order of Operators
+// int main(){
+//     // ()
+//     // * /
+//     // + and -
+//     double x = 1 + 2 * 3;
+//     std::cout<< x;
+//     return 0;
+// }
+
+int main(){
+    double x = 10;
+    double y = 5;
+    double z = (x + 10)/(3 * y);
+    std::cout<<z;
     return 0;
 }
